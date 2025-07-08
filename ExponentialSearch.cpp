@@ -16,14 +16,14 @@ int binarySearch(const vector<int>& data, int start, int end, int key) {
         else
             end = mid - 1;
     }
-    return -1; // not found
+    return -1; 
 }
 
-// Exponential search to find position quickly
+// Exponential search 
 int exponentialSearch(const vector<int>& data, int key) {
     int size = data.size();
 
-    // Check if key is at the first index
+    // Checking the key 
     if (data[0] == key)
         return 0;
 
